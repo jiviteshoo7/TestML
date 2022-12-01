@@ -1,8 +1,8 @@
 name: CI-CD-Pipeline-to-AWS-ElasticBeanstalk
 env:
   EB_PACKAGE_S3_BUCKET_NAME : "myawsbucketapp27"
-  EB_APPLICATION_NAME       : "creditcarddefaultapp"
-  EB_ENVIRONMENT_NAME       : "Creditcarddefaultapp-env"
+  EB_APPLICATION_NAME       : "creditcardprediction"
+  EB_ENVIRONMENT_NAME       : "Creditcardprediction-env"
   DEPLOY_PACKAGE_NAME       : "myawsbucketapp27-${{ github.sha }}.zip"
   AWS_REGION_NAME           : "us-east-1"
 
