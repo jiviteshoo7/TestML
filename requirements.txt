@@ -6,3 +6,8 @@ pandas
 numpy
 sklearn
 scikit_learn
+numpy
+fastapi
+uvicorn
+onnx
+onnxruntime
