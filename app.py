@@ -7,10 +7,10 @@ import pickle
 app = Flask(__name__)
 model = pickle.load(open('model.pkl', 'rb'))
 
-app.config['MONGO_URI'] = 'mongodb+srv://test:test@cluster0.afxedm0.mongodb.net/mydb?retryWrites=true&w=majority'
+app.config['MONGO_URI'] = 'mongodb+srv://mongodb:salman@cluster0.yfhex.mongodb.net/My_Data_base?retryWrites=true&w=majority'
 
 mongo = PyMongo(app)
-newdb = mongo.db.newdb
+Collection_1 = mongo.db.Collection_1
 
 @app.route('/')
 def home():
@@ -55,7 +55,7 @@ def predict():
                  'PAY_AMT4':features[20],
                  'PAY_AMT5':features[21],
                  'PAY_AMT6':features[22],}
-    newdb.insert_one(New_database)
+    Collection_1.insert_one(New_database)
    
     print("prediction value: ", prediction)
 

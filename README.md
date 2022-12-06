@@ -23,7 +23,7 @@ The Code is written in Python 3.7. If you don't have Python installed you can fi
 ## Software and Tools Required
 
 1. [Github account](https://github.com)
-2. [HerokuAccount](https://heroku.com)
+2. [AWS Account](https://aws.amazon.com/console/)
 3. [VS code IDE](https://code.visualstudio.com/)
 4. [GitCli](https://git-scm.com/downloads)
 
