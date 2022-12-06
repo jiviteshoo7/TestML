@@ -36,7 +36,7 @@ conda create -p venv python==3.7 -y
 # Project Interface
 
 #### I have deployed this model to Amazon Web Services (AWS)
-#### Link:http://creditcarddefault-env.eba-ppmapmfr.us-east-1.elasticbeanstalk.com/
+#### Link:http://creditcarddefault-env.eba-ppmapmfr.us-east-1.elasticbeanstalk.com
 ## Technologies Used
 
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
